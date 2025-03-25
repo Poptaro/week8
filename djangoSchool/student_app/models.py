@@ -1,13 +1,15 @@
 from django.db import models
+from django.core import validators as v
+from .validator import validate_student_name, validate_student_email
 
 # Create your models here.
 
 class Student(models.Model):
-  name = models.CharField(max_length=255)
-  student_email = models.EmailField(max_length=255, unique=True)
+  name = models.CharField(max_length=255, validators=[validate_student_name])
+  student_email = models.EmailField(max_length=255, unique=True, validators=[validate_student_email])
   personal_email = models.EmailField(max_length=255, null=True, blank=True, unique=True)
-  locker_number = models.IntegerField(unique=True, default=110)
-  locker_combination = models.CharField(max_length=255, default="12-12-12")
+  locker_number = models.IntegerField(unique=True, default=110, validators=[v.MinValueValidator(1), v.MaxValueValidator(200)])
+  locker_combination = models.CharField(max_length=255, default="12-12-12" )
   good_student = models.BooleanField(default=True)
 
   def locker_reassignment(self, new_locker):
