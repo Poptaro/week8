@@ -9,7 +9,8 @@ class StudentSerializer(serializers.ModelSerializer):
 class StudentAllSerializer(serializers.ModelSerializer):
   class Meta:
     model = Student
-    exclude = ['id']
+    # fields = '__all__'
+    exclude = ['subjects']
 
 class SubjectSerializer(serializers.ModelSerializer):
   class Meta:
