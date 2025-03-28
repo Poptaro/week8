@@ -1,0 +1,62 @@
+[
+  {
+    "model": "cat_app.cat",
+    "pk": 1,
+    "fields": {
+      "name": "soju",
+      "age": 2,
+      "vaccinated": true,
+      "breed": "bb",
+      "description": "cute small fully marshmellow",
+      "owner": 2
+    }
+  },
+  {
+    "model": "cat_app.cat",
+    "pk": 2,
+    "fields": {
+      "name": "Mochi",
+      "age": 3,
+      "vaccinated": true,
+      "breed": "Scottish Fold",
+      "description": "Fluffy and loves to nap",
+      "owner": 1
+    }
+  },
+  {
+    "model": "cat_app.cat",
+    "pk": 3,
+    "fields": {
+      "name": "Luna",
+      "age": 1,
+      "vaccinated": false,
+      "breed": "Siamese",
+      "description": "Energetic and always curious",
+      "owner": 2
+    }
+  },
+  {
+    "model": "cat_app.cat",
+    "pk": 4,
+    "fields": {
+      "name": "Shadow",
+      "age": 4,
+      "vaccinated": true,
+      "breed": "Maine Coon",
+      "description": "Big fluffy boy, loves climbing",
+      "owner": 3
+    }
+  },
+  {
+    "model": "cat_app.cat",
+    "pk": 5,
+    "fields": {
+      "name": "Cinnamon",
+      "age": 2,
+      "vaccinated": true,
+      "breed": "Bengal",
+      "description": "Fast and loves to play",
+      "owner": 3
+    }
+  }
+]

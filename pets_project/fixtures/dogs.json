@@ -1,0 +1,62 @@
+[
+  {
+    "model": "dog_app.dog",
+    "pk": 1,
+    "fields": {
+      "name": "Stubs",
+      "age": 7,
+      "vaccinated": true,
+      "breed": "Alaskan",
+      "description": "Large hairy dog",
+      "owner": 1
+    }
+  },
+  {
+    "model": "dog_app.dog",
+    "pk": 2,
+    "fields": {
+      "name": "Buddy",
+      "age": 3,
+      "vaccinated": true,
+      "breed": "Golden Retriever",
+      "description": "Loves playing fetch and is super friendly",
+      "owner": 1
+    }
+  },
+  {
+    "model": "dog_app.dog",
+    "pk": 3,
+    "fields": {
+      "name": "Rex",
+      "age": 5,
+      "vaccinated": true,
+      "breed": "German Shepherd",
+      "description": "Loyal and protective, loves training sessions",
+      "owner": 2
+    }
+  },
+  {
+    "model": "dog_app.dog",
+    "pk": 4,
+    "fields": {
+      "name": "Bella",
+      "age": 2,
+      "vaccinated": false,
+      "breed": "French Bulldog",
+      "description": "Small but full of energy",
+      "owner": 3
+    }
+  },
+  {
+    "model": "dog_app.dog",
+    "pk": 5,
+    "fields": {
+      "name": "Max",
+      "age": 4,
+      "vaccinated": true,
+      "breed": "Husky",
+      "description": "Loves howling and running in the snow",
+      "owner": 3
+    }
+  }
+]

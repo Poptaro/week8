@@ -1,0 +1,62 @@
+[
+  {
+    "model": "bird_app.bird",
+    "pk": 1,
+    "fields": {
+      "name": "Kiwi",
+      "age": 1,
+      "vaccinated": true,
+      "species": "Parakeet",
+      "description": "Loves chirping and mimicking sounds",
+      "owner": 1
+    }
+  },
+  {
+    "model": "bird_app.bird",
+    "pk": 2,
+    "fields": {
+      "name": "Sunny",
+      "age": 3,
+      "vaccinated": false,
+      "species": "Canary",
+      "description": "Sings beautifully every morning",
+      "owner": 2
+    }
+  },
+  {
+    "model": "bird_app.bird",
+    "pk": 3,
+    "fields": {
+      "name": "Pico",
+      "age": 2,
+      "vaccinated": true,
+      "species": "Cockatiel",
+      "description": "Enjoys head scratches and whistling",
+      "owner": 3
+    }
+  },
+  {
+    "model": "bird_app.bird",
+    "pk": 4,
+    "fields": {
+      "name": "Rio",
+      "age": 4,
+      "vaccinated": true,
+      "species": "Macaw",
+      "description": "Very intelligent and loves to talk",
+      "owner": 1
+    }
+  },
+  {
+    "model": "bird_app.bird",
+    "pk": 5,
+    "fields": {
+      "name": "Peanut",
+      "age": 1,
+      "vaccinated": false,
+      "species": "Lovebird",
+      "description": "Super affectionate and loves cuddles",
+      "owner": 2
+    }
+  }
+]

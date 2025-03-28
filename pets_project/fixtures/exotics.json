@@ -1,0 +1,93 @@
+[
+  {
+    "model": "exotic_app.exotic",
+    "pk": 1,
+    "fields": {
+      "name": "hammy",
+      "age": 3,
+      "vaccinated": false,
+      "type_of_animal": "hamter",
+      "region_of_origin": "columbia",
+      "description": "fat fuqing lazy non-rent-paying free loader",
+      "owner": 1
+    }
+  },
+  {
+    "model": "exotic_app.exotic",
+    "pk": 2,
+    "fields": {
+      "name": "Scales",
+      "age": 5,
+      "vaccinated": true,
+      "type_of_animal": "iguana",
+      "region_of_origin": "Brazil",
+      "description": "Loves sunbathing and eating lettuce all day",
+      "owner": 2
+    }
+  },
+  {
+    "model": "exotic_app.exotic",
+    "pk": 3,
+    "fields": {
+      "name": "Whiskers",
+      "age": 2,
+      "vaccinated": false,
+      "type_of_animal": "ferret",
+      "region_of_origin": "Europe",
+      "description": "A mischievous little troublemaker that steals socks",
+      "owner": 3
+    }
+  },
+  {
+    "model": "exotic_app.exotic",
+    "pk": 4,
+    "fields": {
+      "name": "Jumpy",
+      "age": 4,
+      "vaccinated": true,
+      "type_of_animal": "sugar glider",
+      "region_of_origin": "Australia",
+      "description": "Sleeps all day, hyper all night, enjoys launching off furniture",
+      "owner": 1
+    }
+  },
+  {
+    "model": "exotic_app.exotic",
+    "pk": 5,
+    "fields": {
+      "name": "Shelly",
+      "age": 10,
+      "vaccinated": true,
+      "type_of_animal": "tortoise",
+      "region_of_origin": "Galápagos",
+      "description": "Moves at 0.1 mph but has seen some things",
+      "owner": 2
+    }
+  },
+  {
+    "model": "exotic_app.exotic",
+    "pk": 6,
+    "fields": {
+      "name": "Fang",
+      "age": 1,
+      "vaccinated": false,
+      "type_of_animal": "tarantula",
+      "region_of_origin": "Mexico",
+      "description": "Silent, creepy, and definitely plotting something",
+      "owner": 3
+    }
+  },
+  {
+    "model": "exotic_app.exotic",
+    "pk": 7,
+    "fields": {
+      "name": "Bubbles",
+      "age": 6,
+      "vaccinated": true,
+      "type_of_animal": "axolotl",
+      "region_of_origin": "Mexico",
+      "description": "Smiles all the time, but has no idea what's going on",
+      "owner": 1
+    }
+  }
+]

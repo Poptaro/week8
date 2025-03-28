@@ -1,0 +1,26 @@
+[
+  {
+    "model": "owner_app.owner",
+    "pk": 1,
+    "fields": {
+      "name": "big chungus",
+      "age": 69
+    }
+  },
+  {
+    "model": "owner_app.owner",
+    "pk": 2,
+    "fields": {
+      "name": "Ahri",
+      "age": 32
+    }
+  },
+  {
+    "model": "owner_app.owner",
+    "pk": 3,
+    "fields": {
+      "name": "Ezreal",
+      "age": 23
+    }
+  }
+]
