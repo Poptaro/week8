@@ -7,5 +7,5 @@ from .serializers import DogSerializer
 
 class All_Dogs(APIView):
   def get(self, request):
-    dogs = DogSerializer(Dog.objects.all()).data
+    dogs = DogSerializer(Dog.objects.all(), many=True).data
     return Response(dogs)

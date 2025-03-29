@@ -21,5 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('owner_api/', include('owner_app.urls')),
     path('pets/', include('dog_app.urls')),
+    path('pets/', include('cat_app.urls')),
+    path('pets/', include('bird_app.urls')),
+    path('pets/', include('exotic_app.urls')),
 
 ]
